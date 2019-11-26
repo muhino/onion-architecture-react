@@ -1,0 +1,17 @@
+{
+  "name": "infrastructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "npm --prefix UI run start",
+    "build": "npm --prefix UI run build",
+    "test": "npm --prefix UI run test"
+  },
+  "dependencies": {
+    "app-core": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

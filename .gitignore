@@ -1,0 +1,17 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/node_modules
+/.idea
+**/node_modules
+**/**/node_modules
+
+package-lock.json
+*/package-lock.json
+
+/build
+**/build
+**/**/build
+
+*.log*
+*xml
+*iml
