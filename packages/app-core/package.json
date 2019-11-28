@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo \" Domain has nothing to start \"",
-    "build": "npm install",
     "test": "mocha --timeout 20000 --recursive --exit -c -R spec **/*.spec.js"
   },
   "keywords": [],

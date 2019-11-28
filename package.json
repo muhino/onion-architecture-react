@@ -9,6 +9,7 @@
     "clean:core": "rm -rf packages/app-core/node_modules",
     "clean:infrastructure": "rm -rf packages/infrastructure/UI/build && rm -rf packages/infrastructure/node_modules && rm -rf packages/infrastructure/UI/node_modules",
     "clean:parent": "rm -rf node_modules",
-    "clean": "npm run clean:parent && npm run clean:core && npm run clean:infrastructure"
+    "clean": "npm run clean:parent && npm run clean:core && npm run clean:infrastructure",
+    "clean:lerna": "lerna clean"
   }
 }
