@@ -16,6 +16,8 @@ Pre-installation of ```node``` and ```npm```. (What I used: ```node v12.13.0``` 
 
 ### 2. Build
 
+Install dependencies: ```npm install``` in project's root folder node_modules.
+
 Install all packages: ```npm run build``` in project's root folder.
 
 If you want to deploy as prod, please feel free to jump into section 5.
